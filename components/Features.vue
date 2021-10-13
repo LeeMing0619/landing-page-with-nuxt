@@ -8,7 +8,7 @@
           <button
             class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 px-8 shadow-lg register-button"
           >
-            Sign Up
+            Kostenlos Registrieren
           </button>
         </div>
       </div>      
