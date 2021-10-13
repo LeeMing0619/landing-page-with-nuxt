@@ -1,41 +1,41 @@
 <template>
-  <section class="bg-white border-b py-8">
-    <div class="container max-w-5xl mx-auto m-8">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
-        Title
-      </h1>
-      <div class="w-full mb-4">
+  <section class="bg-white border-b">
+    <div class="container max-w-5xl mx-auto">      
+      <div class="w-full">
         <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
-      </div>
-      <feature-right
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
-      >
-        <img src="~assets/img/travel-booking.svg?inline" alt slot="svg" />
-      </feature-right>
-      <feature-left
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
-      >
-        <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
-      </feature-left>
+          class="h-1 mx-auto registrienren opacity-25 my-0 py-0 rounded-t"
+        >
+          <button
+            class="mx-auto lg:mx-0 hover:underline text-white font-bold rounded-full my-6 px-8 shadow-lg register-button"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>      
     </div>
   </section>
 </template>
 
 <script>
-import FeatureRight from '@/components/FeatureRight'
-import FeatureLeft from '@/components/FeatureLeft'
-
 export default {
-  name: 'Features',
-  components: {
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
-  }
+  name: 'Features',  
 }
 </script>
+<style scoped>
+.registrienren {
+  height: 128px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px -1px 3px #00000033;
+  border-radius: 12px 12px 0px 0px;
+  opacity: 1;
+  display: flex;
+}
+.register-button {  
+  width: 320px;
+  height: 40px;
+  background: transparent linear-gradient(95deg, #319795 0%, #3182CE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  justify-content: center;
+}
+</style>

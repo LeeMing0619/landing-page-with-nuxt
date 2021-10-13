@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "nuxt": "^2.14.3",
-    "nuxt-svg-loader": "^1.2.0"
+    "nuxt-svg-loader": "^1.2.0",
+    "vue-slide-tab": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
